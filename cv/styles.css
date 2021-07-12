@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    background: #accbe8;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(221, 241, 250, 0.9);
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+header>div>a {
+    padding-top: 5px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+header>h1 {
+    margin-top: 10px;
+}
+
+header>h3:nth-child(2) {
+    padding-top: 10px;
+}
+
+main>section {
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgba(221, 241, 250, 0.9);
+    margin: 10px 0 10px 0;
+}
+
+main>section>h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main>section>ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style: circle;
+}
+
+main>section>ul>li {
+    margin-top: 10px;
+}
+
+main>section>ul>li>h4>a {
+    text-decoration: none;
+    color: black;
+    transition: 0.6s;
+}
+
+main>section>ul>li>h4>a:hover {
+    color: #89aad5;
+}
+
+main>section>ul>li>p {
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+main>section>ul>li>p>a {
+    text-decoration: none;
+    color: black;
+}
+
+main>section>ul>li>p>a:hover {
+    color: #89aad5;
+    font-size: large;
+}
+
+.efeito {
+    background-color: #0288d1;
+    height: 1800px;
+    width: 1800px;
+    margin-top: 200px;
+    margin-left: 50px;
+    border-radius: 100% 100% 100% 100%;
+    transform: rotate(225deg);
+    box-shadow: inset -25px 10px 0px -10px #03a9f4;
+    position: fixed;
+    z-index: -1;
+
+}
+
+footer {
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgba(221, 241, 250, 0.9);
+    margin: 0px 0 10px 0;
+}
+
+footer>h2 {
+    text-align: center;
+}
+
+footer>p {
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+.whatsapp:hover {
+    color: #26cc64
+}
+
+.gmail:hover {
+    color: #e50200
+}
+
+
+.linkedin:hover {
+    color: #0079b9
+}
+
+
+.github:hover {
+    color: #4700b9
+}
